@@ -16,6 +16,6 @@ def get_auth_token(env):
     )
 
     assert response.status_code == 200, "Login failed!"
-    token = response.json().get("access_token")  # ✅ Use the correct key based on your API response
+    token = response.json().get("token")  # ✅ Use the correct key based on your API response
 
     return token

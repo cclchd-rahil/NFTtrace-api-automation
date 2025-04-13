@@ -1,3 +1,14 @@
 pytest
 requests
 pytest-html
+
+
+Creating and activating venv
+python -m venv venv
+. .\venv\Scripts\Activate.ps1
+
+Installing requests 
+pip install requests
+
+
+Run Smoke test 
