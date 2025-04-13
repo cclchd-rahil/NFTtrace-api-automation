@@ -12,3 +12,13 @@ pip install requests
 
 
 Run Smoke test 
+pytest -m smoke --html=reports/report_$(Get-Date -Format "yyyyMMdd_HHmmss").html --self-contained-html
+
+
+Git commands
+git init (if needed)
+git add .
+git commit -m "message"
+git remote add origin <repo_url> (if needed)
+git push origin <branch>
+
